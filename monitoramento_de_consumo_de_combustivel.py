@@ -12,12 +12,12 @@ distância = input("Digite a distância percorrida (em km):" )
 print('---------------------------------------------------------')
 litros = input("Digite a quantidade de combustivel gasto (em litros):")
 print("------------------------------------------------------------")
-consumo_medio = distância / litros
+consumo_medio = (distância / litros)
 
 if consumo_medio < 8  :
     print('Auto consumo')
 
- elif consumo_medio 8-12 :
+elif consumo_medio <=12 :
     print('Consumo moderado')
 
 else:
