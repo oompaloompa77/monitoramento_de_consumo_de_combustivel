@@ -12,4 +12,13 @@ print("Digite a distância percorrida (em km):" )
 print('---------------------------------------------------------')
 print("Digite a quantidade de combustivel gasto (em litros):")
 print("------------------------------------------------------------")
-input(if: '< 8 = Alto consumo')
+
+if consumo < 8  
+print('Auto consumo')
+
+elif consumo 8 - 12
+print('Consumo moderado')
+
+else consumo > 12 
+print('Econômico')
+
