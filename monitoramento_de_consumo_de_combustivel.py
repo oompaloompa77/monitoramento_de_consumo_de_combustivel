@@ -7,18 +7,19 @@
 #> 12 = Econômico
 #Dizer o resultado final com: alto consumo, cxonsumo moderado, econômico
 
-input(consumo_medio = distancia / litros)
-print("Digite a distância percorrida (em km):" )
+
+distância = input("Digite a distância percorrida (em km):" )
 print('---------------------------------------------------------')
-print("Digite a quantidade de combustivel gasto (em litros):")
+litros = input("Digite a quantidade de combustivel gasto (em litros):")
 print("------------------------------------------------------------")
+consumo_medio = distância / litros
 
-if consumo < 8  
-print('Auto consumo')
+if consumo_medio < 8  :
+    print('Auto consumo')
 
-elif consumo 8 - 12
-print('Consumo moderado')
+ elif consumo_medio 8-12 :
+    print('Consumo moderado')
 
-else consumo > 12 
-print('Econômico')
+else:
+    print('Econômico')
 
