@@ -8,4 +8,8 @@
 #Dizer o resultado final com: alto consumo, cxonsumo moderado, econômico
 
 input(consumo_medio = distancia / litros)
-print('Digite a distância percorrida (em km):' {Perguntar a pessoa a distância percorrida (em km)})
+print("Digite a distância percorrida (em km):" )
+print('---------------------------------------------------------')
+print("Digite a quantidade de combustivel gasto (em litros):")
+print("------------------------------------------------------------")
+input(if: '< 8 = Alto consumo')
